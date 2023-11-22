@@ -1,0 +1,50 @@
+<template>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="" class="signup-form">
+                    <p class="title">Sign up</p>
+                    <div class="input-field">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Username"/>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-envelope"></i>
+                        <input type="text" placeholder="Email"/>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-lock"></i>
+                        <input type="text" placeholder="Password"/>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-map-location"></i>
+                        <input type="text" placeholder="Address"/>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-phone"></i>
+                        <input type="text" placeholder="Phone"/>
+                    </div>
+                    <input type="submit" class="btn solid" value="Login"/>
+                    <p>Bạn có tài khoản?<input type="submit" class="btn signin-solid" value="Sign in"/></p>
+                    <div class="social-media">
+                        <a href="" class="social-icon icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-icon icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="social-icon icon">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</template>
+<style>
+@import "@/assets/style.css";
+</style>
